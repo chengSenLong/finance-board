@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
                 element: <Markets />
             },
             {
-                path: 'symbol',
+                path: 'symbol/:symbolId',
                 element: <Symbol />
             }
         ]
